@@ -1,0 +1,47 @@
+# Ignore node_modules folder
+node_modules/
+
+# Ignore build/output directories (for Vite and other bundlers)
+dist/
+build/
+
+# Ignore dependencies installed by package managers
+*.log
+package-lock.json
+yarn.lock
+.pnpm-lock.yaml
+
+# Ignore environment files (contains sensitive info like API keys)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Ignore temporary files and caches
+.vscode/
+.DS_Store
+*.swp
+*.swo
+.idea/
+*.sublime-workspace
+
+# Ignore OS-specific or editor-specific files
+Thumbs.db
+*.DS_Store
+*.log
+
+# Ignore cache files created by Vite
+.cache/
+.vite/
+.vite-cache/
+
+# Ignore generated folders for databases
+db_data/
+__pycache__/
+
+# Ignore the .next folder if using Next.js (in case you're considering adding Next.js components)
+.next/
+
+# Ignore local development IDE settings
+.vscode/
